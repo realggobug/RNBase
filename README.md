@@ -27,45 +27,45 @@
 - 설치 후 vsCode에서 F1 누른 후 `>Git: Clone` 찾아서 git repository 연결.
 - 연동 완료 된 후 RNbase 폴더로 vsCode open.
 - 아래 화면의 폴더구조처럼 되게끔 open.
-![image](/uploads/f4a1ba968fabc24a0ba006c17d7b76db/image.png)
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/67956546/209611439-c6b4944b-5926-4a1e-a407-c9dbd1c3bd39.png">
 - vsCode 커맨드 창(단축키 : `Ctrl + ~`) 열어서 `yarn install` 수행.
 - 수행 완료 되면 node_modules 라는 폴더가 생성됨.
 
 ### VsCode Extension
 - 개발을 도와주는 vsCode 자체 확장 프로그램 설치.
 
-![image](/uploads/f14d3708600defdddd37b1c5f6859780/image.png)
-![image](/uploads/5822bef99dc491d1afa61fde8bb7e957/image.png)
-![image](/uploads/11d97d97dfbfa0dca343b89a2f3d4db4/image.png)
-![image](/uploads/31c6ecae32592c1b141a7beda1578ee7/image.png)
+<img width="341" alt="image (1)" src="https://user-images.githubusercontent.com/67956546/209611449-bb685e50-47d1-4fa7-961f-cffe60c92e0f.png">
+<img width="700" alt="image (2)" src="https://user-images.githubusercontent.com/67956546/209611457-38f91bd3-0e46-48b9-b9c7-b8d78a9ce534.png">
+<img width="701" alt="image (3)" src="https://user-images.githubusercontent.com/67956546/209611460-4449f435-de9d-4140-a1c1-0106c022c206.png">
+<img width="729" alt="image (4)" src="https://user-images.githubusercontent.com/67956546/209611461-f0c5ea27-3f14-4200-9da9-774172507a1c.png">
 
 ### Android Studio 설치 및 설정 / 버전 : 2021.3.1 (Dolphin)
 (다운로드 사이트 : https://developer.android.com/studio)
 - 기존 Android Studio가 설치되어 있을 경우 버전 업데이트 해줘야함.
 - 초기 설치시 설치 후 기본 화면에서 Tools 탭 안의 SDK Manager 메뉴 클릭
-![image](/uploads/aae017320f27dacff0ab6c3edb17a529/image.png)
-![image](/uploads/b09e5d0be5a05c37f270e2eaaf69181a/image.png)
-![image](/uploads/b0d00e7297dae62315d2da5969d8ab7d/image.png)
+![image (5)](https://user-images.githubusercontent.com/67956546/209611464-1999d156-1887-437e-8561-ac3296fc2db9.png)
+![image (6)](https://user-images.githubusercontent.com/67956546/209611465-687b32d5-5a8d-4914-b8f6-3cc07252c688.png)
+![image (7)](https://user-images.githubusercontent.com/67956546/209611467-1e3b0d39-1182-4e19-b924-5018205ccceb.png)
 - Android SDK Platform
 - Intel Atom System Image
 - Google Play Intel Atom System Image
 - 위 항목들을 체크 해서 설치.
-![image](/uploads/4715a9332a74c63427375287bd5164ed/image.png)
+![image (8)](https://user-images.githubusercontent.com/67956546/209611468-6663caf5-9a82-474d-b706-7e488deb0b46.png)
 - SDK Tools 탭으로 이동하여 체크된 항목들 체크 후 설치.
 - 다시 Tools 탭 안의 Device Manager 메뉴 클릭 후 Create device 클릭
-![image](/uploads/d9d79113da557d31989d46ce0649cd14/image.png)
+![image (9)](https://user-images.githubusercontent.com/67956546/209611469-c55e65d1-7153-48a6-8008-0298081806c3.png)
 - 원하는 디바이스 모델 선택
-![image](/uploads/8545bcf057384a9585791b5f9ce01740/image.png)
+![image (10)](https://user-images.githubusercontent.com/67956546/209611471-ef5ad30e-54c2-4ed3-8b45-6eedaa76290e.png)
 - 위에서 설정했던 SDK 버전과 동일한 버전으로 설치 후 완료.
-![image](/uploads/2ac2293e5b6d3843166ba06327c94e39/image.png)
+![image (11)](https://user-images.githubusercontent.com/67956546/209611472-ab8c767e-34e9-4503-bd3e-52ac1cd0cb5d.png)
 - 생성된 Device 실행.
-![image](/uploads/f2a12b6760016d8087f785d061a9fcff/image.png)
+![image (12)](https://user-images.githubusercontent.com/67956546/209611474-8646f1c4-40a4-4d76-a428-3eb8bb6b662a.png)
 - 실행이 잘 되면 Git 받은 프로젝트 열기 
 - File -> Open -> android 열기
-![image](/uploads/a4fa1b2514a68fb8a7e51120576d873a/image.png)
+![image (13)](https://user-images.githubusercontent.com/67956546/209611476-f64c08e1-1e48-4c55-b108-a845e95e536f.png)
 - 프로젝트 열게 되면 자동으로 build 시작.
 - 빌드 완료 되면 Device 실행 후 vsCode로 가서 터미널에 `yarn android` 명령어 실행.
 - 실행한 Device Emulator 랑 연결이 잘 되었으면 아래 사진처럼 진행됨.
-![image](/uploads/475f6e2b4a188757d434b6e72b7ac4f5/image.png)
-![image](/uploads/cb17b3c68f2251a93c94cdab5228decc/image.png)
+![image (14)](https://user-images.githubusercontent.com/67956546/209611477-d4755a97-c44c-4112-9538-2ed1778d7ede.png)
+![image (15)](https://user-images.githubusercontent.com/67956546/209611480-40784d3b-929d-4e36-aea3-db4d1cb5db15.png)
 
